@@ -1,0 +1,21 @@
+.video-dlt-wrapper {
+    min-height: 85vh;
+  }
+  
+  .delete-video-card {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    color: white;
+  }
+  
+  .delete-video-card dt {
+    font-weight: 600;
+  }
+  
+  .delete-video-card iframe {
+    border: 1px solid #334155;
+  }
+  

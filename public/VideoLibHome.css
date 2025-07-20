@@ -1,0 +1,21 @@
+.video-lib-home {
+    height: 80vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(/src/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .home-card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    color: white;
+    max-width: 350px;
+    width: 90%;
+  }
+  

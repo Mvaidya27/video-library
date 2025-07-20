@@ -1,0 +1,23 @@
+.video-wrapper {
+    min-height: 120vh;
+  }
+  
+  .edit-video-card {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    color: white;
+  }
+  
+  .edit-video-card .form-control,
+  .edit-video-card .form-select {
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+  }
+  
+  .edit-video-card .form-control::placeholder {
+    color: #94a3b8;
+  }
+  

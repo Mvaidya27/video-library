@@ -1,0 +1,32 @@
+.add-video-page {
+    height: 120vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+  }
+  
+  .add-video-card {
+    max-width: 550px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    color: white;
+  }
+  
+  .add-video-card input.form-control,
+  .add-video-card textarea.form-control,
+  .add-video-card select {
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+  }
+  
+  .add-video-card input::placeholder,
+  .add-video-card textarea::placeholder {
+    color: #94a3b8;
+  }
+  
+  .add-video-card .form-select {
+    background-color: #1e293b;
+    color: white;
+  }
+  

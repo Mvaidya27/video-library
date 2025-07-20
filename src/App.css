@@ -1,0 +1,57 @@
+.navbar-gradient {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-gradient .btn-outline-light {
+    border-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-gradient .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #4e4376;
+    border-color: #ffffff;
+  }
+  
+  .navbar-gradient .text-decoration-none {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-gradient .text-decoration-none:hover {
+    color: #fcd34d;
+    text-decoration: none;
+  }
+  
+  .navbar-gradient .btn-outline-light::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-gradient .btn-outline-light:hover::after {
+    width: 100%;
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-gradient h1 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .video-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+  }
+  

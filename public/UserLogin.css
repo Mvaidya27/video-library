@@ -1,0 +1,31 @@
+.login-page {
+    height: 80vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(/src/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .login-card {
+    max-width: 350px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    color: #fff;
+  }
+  
+  .login-card input.form-control {
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+  }
+  
+  .login-card input.form-control::placeholder {
+    color: #94a3b8;
+  }
+  

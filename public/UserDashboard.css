@@ -1,0 +1,19 @@
+.video-card {
+    transition: transform 0.3s ease;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-body.bg-dark-subtle {
+    background-color: #f8f9fa;
+  }
+  
+  .card-footer.bg-light {
+    background-color: #e2e8f0;
+  }
+  

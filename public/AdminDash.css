@@ -1,0 +1,21 @@
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table-dark {
+  background-color: #1f2937;
+}
+
+.table-light {
+  background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #334155 !important;
+  color: #fff;
+}
+
+iframe {
+  border-radius: 8px;
+}
